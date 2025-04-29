@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Enumeracoes.Entities
+namespace Enumeracoes.Enum
 {
     public enum OrderStatus : int
     {

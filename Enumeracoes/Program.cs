@@ -1,6 +1,5 @@
-﻿
-using Enumeracoes;
-using Enumeracoes.Entities;
+﻿using Enumeracoes.Entities;
+using Enumeracoes.Enum;
 
 Order order = new Order
 {
@@ -11,3 +10,9 @@ Order order = new Order
     Status = OrderStatus.Processing
 };
 Console.WriteLine(order.ToString());
+
+string st = OrderStatus.PendingPayment.ToString();
+Console.WriteLine(st);
+
+OrderStatus os = Enum.Parse<OrderStatus>("Shipped");
+Console.WriteLine(os.ToString());

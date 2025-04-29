@@ -1,11 +1,11 @@
-﻿using Enumeracoes.Entities;
+﻿using Enumeracoes.Enum;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Enumeracoes
+namespace Enumeracoes.Entities
 {
     public class Order
     {
